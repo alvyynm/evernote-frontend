@@ -1,0 +1,45 @@
+// custom colors
+$primaryColor: #04a72e;
+$hoverColor: #14cc45;
+$backgroundColor: #ffffff;
+$navTextColor: #000000;
+$textMutedColor: #787878;
+
+
+/* ============ desktop view ============ */
+@media all and (min-width: 992px) {
+	.navbar .nav-item .dropdown-menu{ display: none; }
+	// .navbar .nav-item:hover .nav-link{   }
+	.navbar .nav-item:hover .dropdown-menu{ display: block; }
+	.navbar .nav-item .dropdown-menu{ margin-top:0; }
+}	
+/* ============ desktop view .end// ============ */
+
+
+body {
+    background-color: $backgroundColor;
+}
+
+.btn-outline-primary {
+    border-color: $primaryColor;
+    color: $primaryColor;
+    border-width: 2px;
+}
+
+.btn-outline-primary:hover {
+    border-color: $hoverColor;
+    background-color: $backgroundColor;
+    color: $hoverColor;
+}
+
+.nav-link {
+    color: $navTextColor;
+}
+
+.nav-link:hover {
+    color: $hoverColor;
+}
+
+.nav-price {
+    color: $textMutedColor;
+}
