@@ -43,3 +43,11 @@ body {
 .nav-price {
     color: $textMutedColor;
 }
+
+.dealbtn {
+    background-color: $primaryColor;
+}
+
+.dealbtn:hover {
+    background-color: $hoverColor;
+}
